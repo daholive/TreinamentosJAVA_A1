@@ -16,16 +16,11 @@ class TestaFuncionario{
             func3.salario = 3200;
             func3.setDataEntBco(12,10,2001);
 
-            Empresa emp = new Empresa();
+            EmpresaCerta emp = new EmpresaCerta();
 
-            emp.adicionar(func1,0);
-            emp.adicionar(func1,1);
-            emp.adicionar(func1,2);
-
-            emp.mostraQtdFuncionario();
-
-
-
+            emp.adiciona(func1);
+            emp.adiciona(func2);
+            emp.adiciona(func3);
 
      }
 
